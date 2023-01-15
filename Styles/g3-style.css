@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+}
+/* header section styles */
+.header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* navigation bar styles */
+.nav-title{
+    font-weight: 700;
+    font-size: 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:50px 240px 100px 240px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+/* banner section styles */
+.banner{
+    text-align: center;
+    margin: 75px 450px 30px 530px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    padding-bottom: 10px;
+}
+.banner-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.banner-image{
+    width: 100%;
+    max-width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+    position: relative;
+    left: 120px;
+    margin: 50px 0px 45px 100px;
+}
+
+.btn-primary{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #ff964a;
+    position: relative;
+    left: 45%;
+}
+/* main section Styles */
+.main{
+    margin: 85px 300px 130px 300px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.features-title{
+    margin-bottom: 25px;
+}
+.feature-description{
+    margin-bottom: 30px;
+    color: #727272;
+}
+.features-title .quick{
+    font-weight: 500;
+    font-size: 40px;
+    color: #727272;
+}
+.features-title h3{
+    font-weight: 700;
+    font-size: 40px;
+}
+.features-title .feat{
+    color: #ff964a;
+}
+.btn-second{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    height: 64px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #ff964a;
+}
+/* features list styles */
+.features-list-container{
+    display: flex;
+    gap: 55px;
+    margin: 130px 240px;
+}
+.features-heading{
+    font-weight: 700;
+    font-size: 40px;
+    color:#131313;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.heading-description,.featura-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.heading-description{
+    margin-bottom: 30px;
+}
+/* apply box shadows on features items */
+.feature{
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 5.34229px 13.3557px  rgba(65, 64, 64, 0.07);
+}
+.features-list{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.feature-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.featura-des{
+    margin-top: 5px;
+}
+/* button and background image styles */
+.architect-container button{
+    margin-top: 940px;
+}
+.architect-container{
+    margin-bottom: 30px;
+}
+.architect-image{
+    background-image: url("../images/architect.png");
+    width: 708px;
+    height: 982px;
+}
+.btn-third{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    height: 100px;
+    padding: 0px 35px;
+    border-radius: 5px;
+    background: #ff964a;
+}
+/* some facts Sections styles */
+.facts{
+    margin-left: 240px;
+}
+.fact-title h2{
+    font-weight: 700;
+    font-size: 45px;
+}
+.fact-description p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    width: 30%;
+}
+/* Flex box styles */
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 290px 180px; 
+}
+.box{
+    text-align: center;
+    border: 2px solid #ff964a;
+    border-radius: 8px;
+}
+.box-item-container{
+    padding: 10px;
+    margin: 10px 15px;
+}
+.box-item-container h3{
+    font-weight: 600;
+    font-size: 40px;
+}
+.box-item-container p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+/* box transform & transition */
+.box{
+    margin-top: 10px;
+    background-color:lightyellow;
+    transition: width 5s,ease 1s, height 5s,transform 2s;
+}
+.box:hover{
+    transform: rotate(360deg);
+}
+/* Sponsorship Section styles */
+.sponsors{
+    text-align: center;
+}
+.sp-title h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.sponsor-description p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin:25px 690px 50px ;
+}
+.sponsors-name{
+    display: flex;
+    gap: 10px;
+    margin: 0 240px 130px 240px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sponsors-name img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
