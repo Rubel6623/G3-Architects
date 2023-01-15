@@ -32,11 +32,14 @@ nav li{
     font-weight: 700;
     font-size: 65px;
     padding-bottom: 10px;
+    width: 80%;
 }
 .banner-description{
     color: #727272;
     font-weight: 400;
     font-size: 16px;
+    height: 40%;
+    width: 70%;
 }
 .banner-image{
     width: 100%;
@@ -58,7 +61,7 @@ nav li{
     border-radius: 5px;
     background: #ff964a;
     position: relative;
-    left: 45%;
+    left: 40%;
 }
 /* main section Styles */
 .main{
@@ -113,13 +116,15 @@ nav li{
     font-weight: 700;
     font-size: 40px;
     color:#131313;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-bottom: px;
+    border-left: 3px solid #ff964a;
 }
 .heading-description,.featura-des{
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+    padding-top: 10px;
 }
 .heading-description{
     margin-bottom: 30px;
@@ -237,4 +242,61 @@ nav li{
 .sponsors-name img{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+}
+/* footer styles */
+.inner-footer{
+    background-color: #3b3a3a;
+}
+.social-link{
+    display: flex;
+}
+.social-link ul{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    padding-top: 30px;
+}
+.social-item,.quick-item{
+    list-style: none;
+}
+.social-item a{
+    padding: 10px 20px;
+    font-size: 35px;
+    color: aqua;
+    margin: auto;
+    transition: all .25s;
+}
+.social-item a:hover{
+    color: #7ffa1b;
+}
+.quick-links{
+    display: flex;
+    width: 560px;
+    height: 70px;
+    align-items: center;
+    margin-left: 300px;
+}
+.quick-links ul{
+    display: flex;
+}
+.quick-item a{
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 18px;
+    color: #FFFFFF;
+    transition: all .25s;
+}
+.quick-item a:hover{
+    color: #ff964a;
+}
+.outer-footer{
+    margin: 0 240px;
+    padding: 20px;
+    text-align: center;
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    background: #FFF4E7;
+    border-radius: 5px;
 }
